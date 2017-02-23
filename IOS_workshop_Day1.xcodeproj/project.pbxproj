@@ -99,6 +99,7 @@
 		E3222EB81E5C33AC00A8F47A = {
 			isa = PBXGroup;
 			children = (
+				E3222F101E5ECD6600A8F47A /* Playground */,
 				E3222EC31E5C33AC00A8F47A /* IOS_workshop_Day1 */,
 				E3222ED81E5C33AC00A8F47A /* IOS_workshop_Day1Tests */,
 				E3222EE31E5C33AC00A8F47A /* IOS_workshop_Day1UITests */,
@@ -156,6 +157,13 @@
 				E3222EE61E5C33AC00A8F47A /* Info.plist */,
 			);
 			path = IOS_workshop_Day1UITests;
+			sourceTree = "<group>";
+		};
+		E3222F101E5ECD6600A8F47A /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
