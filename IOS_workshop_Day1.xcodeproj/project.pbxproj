@@ -14,6 +14,17 @@
 		E3222ECF1E5C33AC00A8F47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3222ECD1E5C33AC00A8F47A /* LaunchScreen.storyboard */; };
 		E3222EDA1E5C33AC00A8F47A /* IOS_workshop_Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222ED91E5C33AC00A8F47A /* IOS_workshop_Day1Tests.swift */; };
 		E3222EE51E5C33AC00A8F47A /* IOS_workshop_Day1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EE41E5C33AC00A8F47A /* IOS_workshop_Day1UITests.swift */; };
+		E3222EF51E5D313A00A8F47A /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EF41E5D313A00A8F47A /* AlertController.swift */; };
+		E3222EF71E5D5F0A00A8F47A /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EF61E5D5F0A00A8F47A /* ScrollViewController.swift */; };
+		E3222EF91E5D672A00A8F47A /* ScrollView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EF81E5D672A00A8F47A /* ScrollView2Controller.swift */; };
+		E3222EFB1E5D6F1100A8F47A /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EFA1E5D6F1100A8F47A /* StackViewController.swift */; };
+		E3222EFD1E5D7C8F00A8F47A /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EFC1E5D7C8F00A8F47A /* ContainerViewController.swift */; };
+		E3222EFF1E5D7DF500A8F47A /* HoroscopeResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EFE1E5D7DF500A8F47A /* HoroscopeResultViewController.swift */; };
+		E3222F011E5E817E00A8F47A /* ContainerviewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F001E5E817E00A8F47A /* ContainerviewController2.swift */; };
+		E3222F031E5E8EC200A8F47A /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F021E5E8EC200A8F47A /* SideMenuTableViewController.swift */; };
+		E3222F051E5EB1A200A8F47A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F041E5EB1A200A8F47A /* Extension.swift */; };
+		E3222F071E5EB30600A8F47A /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F061E5EB30600A8F47A /* CustomViewController.swift */; };
+		E3222F091E5EBA8D00A8F47A /* CircleImageVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F081E5EBA8D00A8F47A /* CircleImageVIewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		E3222EE01E5C33AC00A8F47A /* IOS_workshop_Day1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_workshop_Day1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3222EE41E5C33AC00A8F47A /* IOS_workshop_Day1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_workshop_Day1UITests.swift; sourceTree = "<group>"; };
 		E3222EE61E5C33AC00A8F47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3222EF41E5D313A00A8F47A /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertController.swift; path = ../AlertController.swift; sourceTree = "<group>"; };
+		E3222EF61E5D5F0A00A8F47A /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		E3222EF81E5D672A00A8F47A /* ScrollView2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView2Controller.swift; sourceTree = "<group>"; };
+		E3222EFA1E5D6F1100A8F47A /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		E3222EFC1E5D7C8F00A8F47A /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		E3222EFE1E5D7DF500A8F47A /* HoroscopeResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoroscopeResultViewController.swift; sourceTree = "<group>"; };
+		E3222F001E5E817E00A8F47A /* ContainerviewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerviewController2.swift; sourceTree = "<group>"; };
+		E3222F021E5E8EC200A8F47A /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		E3222F041E5EB1A200A8F47A /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E3222F061E5EB30600A8F47A /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		E3222F081E5EBA8D00A8F47A /* CircleImageVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageVIewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,23 @@
 		E3222EC31E5C33AC00A8F47A /* IOS_workshop_Day1 */ = {
 			isa = PBXGroup;
 			children = (
+				E3222EF41E5D313A00A8F47A /* AlertController.swift */,
 				E3222EC41E5C33AC00A8F47A /* AppDelegate.swift */,
 				E3222EC61E5C33AC00A8F47A /* ViewController.swift */,
 				E3222EC81E5C33AC00A8F47A /* Main.storyboard */,
+				E3222F081E5EBA8D00A8F47A /* CircleImageVIewController.swift */,
+				E3222F061E5EB30600A8F47A /* CustomViewController.swift */,
+				E3222F041E5EB1A200A8F47A /* Extension.swift */,
+				E3222F021E5E8EC200A8F47A /* SideMenuTableViewController.swift */,
+				E3222F001E5E817E00A8F47A /* ContainerviewController2.swift */,
+				E3222EFE1E5D7DF500A8F47A /* HoroscopeResultViewController.swift */,
+				E3222EFC1E5D7C8F00A8F47A /* ContainerViewController.swift */,
+				E3222EFA1E5D6F1100A8F47A /* StackViewController.swift */,
 				E3222ECB1E5C33AC00A8F47A /* Assets.xcassets */,
 				E3222ECD1E5C33AC00A8F47A /* LaunchScreen.storyboard */,
 				E3222ED01E5C33AC00A8F47A /* Info.plist */,
+				E3222EF61E5D5F0A00A8F47A /* ScrollViewController.swift */,
+				E3222EF81E5D672A00A8F47A /* ScrollView2Controller.swift */,
 			);
 			path = IOS_workshop_Day1;
 			sourceTree = "<group>";
@@ -259,8 +292,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3222F011E5E817E00A8F47A /* ContainerviewController2.swift in Sources */,
 				E3222EC71E5C33AC00A8F47A /* ViewController.swift in Sources */,
+				E3222EF91E5D672A00A8F47A /* ScrollView2Controller.swift in Sources */,
+				E3222F091E5EBA8D00A8F47A /* CircleImageVIewController.swift in Sources */,
+				E3222F071E5EB30600A8F47A /* CustomViewController.swift in Sources */,
+				E3222EFD1E5D7C8F00A8F47A /* ContainerViewController.swift in Sources */,
+				E3222F051E5EB1A200A8F47A /* Extension.swift in Sources */,
+				E3222EF51E5D313A00A8F47A /* AlertController.swift in Sources */,
+				E3222EFB1E5D6F1100A8F47A /* StackViewController.swift in Sources */,
 				E3222EC51E5C33AC00A8F47A /* AppDelegate.swift in Sources */,
+				E3222EFF1E5D7DF500A8F47A /* HoroscopeResultViewController.swift in Sources */,
+				E3222EF71E5D5F0A00A8F47A /* ScrollViewController.swift in Sources */,
+				E3222F031E5E8EC200A8F47A /* SideMenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
