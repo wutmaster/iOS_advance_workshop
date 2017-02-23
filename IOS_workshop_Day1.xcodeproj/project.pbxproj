@@ -45,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E30FECD61E5ECE8100700C89 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = IOS_workshop_Day1/MyPlayground.playground; sourceTree = SOURCE_ROOT; };
 		E3222EC11E5C33AC00A8F47A /* IOS_workshop_Day1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_workshop_Day1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3222EC41E5C33AC00A8F47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3222EC61E5C33AC00A8F47A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 			children = (
 				E3222EE41E5C33AC00A8F47A /* IOS_workshop_Day1UITests.swift */,
 				E3222EE61E5C33AC00A8F47A /* Info.plist */,
+				E30FECD61E5ECE8100700C89 /* MyPlayground.playground */,
 			);
 			path = IOS_workshop_Day1UITests;
 			sourceTree = "<group>";
@@ -557,6 +559,7 @@
 				E3222EEB1E5C33AC00A8F47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3222EEC1E5C33AC00A8F47A /* Build configuration list for PBXNativeTarget "IOS_workshop_Day1Tests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +568,7 @@
 				E3222EEE1E5C33AC00A8F47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3222EEF1E5C33AC00A8F47A /* Build configuration list for PBXNativeTarget "IOS_workshop_Day1UITests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +577,7 @@
 				E3222EF11E5C33AC00A8F47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
