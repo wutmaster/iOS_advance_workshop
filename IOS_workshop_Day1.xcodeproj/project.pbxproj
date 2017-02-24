@@ -30,6 +30,8 @@
 		E3AFA5741E5FDDB5000A8E76 /* GCDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */; };
 		E3AFA5761E5FDDBB000A8E76 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5751E5FDDBB000A8E76 /* AlertController.swift */; };
 		E3AFA5791E5FE4B5000A8E76 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5781E5FE4B5000A8E76 /* SwiftyJSON.swift */; };
+		E3AFA57B1E5FE88F000A8E76 /* avengers.json in Resources */ = {isa = PBXBuildFile; fileRef = E3AFA57A1E5FE88F000A8E76 /* avengers.json */; };
+		E3AFA57D1E5FEE77000A8E76 /* AlamofireController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA57C1E5FEE77000A8E76 /* AlamofireController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDController.swift; sourceTree = "<group>"; };
 		E3AFA5751E5FDDBB000A8E76 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		E3AFA5781E5FE4B5000A8E76 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		E3AFA57A1E5FE88F000A8E76 /* avengers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = avengers.json; sourceTree = "<group>"; };
+		E3AFA57C1E5FEE77000A8E76 /* AlamofireController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +222,8 @@
 			isa = PBXGroup;
 			children = (
 				E3AFA5781E5FE4B5000A8E76 /* SwiftyJSON.swift */,
+				E3AFA57A1E5FE88F000A8E76 /* avengers.json */,
+				E3AFA57C1E5FEE77000A8E76 /* AlamofireController.swift */,
 			);
 			name = CocoaPods;
 			sourceTree = "<group>";
@@ -339,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AFA57B1E5FE88F000A8E76 /* avengers.json in Resources */,
 				E3222ECF1E5C33AC00A8F47A /* LaunchScreen.storyboard in Resources */,
 				E3222ECC1E5C33AC00A8F47A /* Assets.xcassets in Resources */,
 				E3222ECA1E5C33AC00A8F47A /* Main.storyboard in Resources */,
@@ -512,6 +519,7 @@
 				E3222F091E5EBA8D00A8F47A /* CircleImageVIewController.swift in Sources */,
 				E3222F071E5EB30600A8F47A /* CustomViewController.swift in Sources */,
 				E3222EFD1E5D7C8F00A8F47A /* ContainerViewController.swift in Sources */,
+				E3AFA57D1E5FEE77000A8E76 /* AlamofireController.swift in Sources */,
 				E3AFA5761E5FDDBB000A8E76 /* AlertController.swift in Sources */,
 				E3222F051E5EB1A200A8F47A /* Extension.swift in Sources */,
 				E3222EFB1E5D6F1100A8F47A /* StackViewController.swift in Sources */,

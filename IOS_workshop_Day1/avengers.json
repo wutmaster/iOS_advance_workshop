@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Tony",
+        "lastName": "Stark",
+        "height": 173,
+        "weight": 78
+    },
+    {
+        "name": "Steve",
+        "lastName": "Rogers",
+        "height": 183,
+        "weight": 88
+    },
+    {
+        "name": "Thor",
+        "lastName": "Odinson",
+        "height": 191,
+        "weight": 91
+    },
+    {
+        "name": "Natasha",
+        "lastName": "Romanov",
+        "height": 160,
+        "weight": 57
+    },
+]
