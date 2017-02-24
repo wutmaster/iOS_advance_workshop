@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E30FECD81E5ECF0300700C89 /* GCDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30FECD71E5ECF0300700C89 /* GCDController.swift */; };
-		E30FECDA1E5FD12C00700C89 /* BlackgroundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30FECD91E5FD12C00700C89 /* BlackgroundController.swift */; };
 		E3222EC51E5C33AC00A8F47A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EC41E5C33AC00A8F47A /* AppDelegate.swift */; };
 		E3222EC71E5C33AC00A8F47A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EC61E5C33AC00A8F47A /* ViewController.swift */; };
 		E3222ECA1E5C33AC00A8F47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3222EC81E5C33AC00A8F47A /* Main.storyboard */; };
@@ -16,7 +14,6 @@
 		E3222ECF1E5C33AC00A8F47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3222ECD1E5C33AC00A8F47A /* LaunchScreen.storyboard */; };
 		E3222EDA1E5C33AC00A8F47A /* IOS_workshop_Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222ED91E5C33AC00A8F47A /* IOS_workshop_Day1Tests.swift */; };
 		E3222EE51E5C33AC00A8F47A /* IOS_workshop_Day1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EE41E5C33AC00A8F47A /* IOS_workshop_Day1UITests.swift */; };
-		E3222EF51E5D313A00A8F47A /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EF41E5D313A00A8F47A /* AlertController.swift */; };
 		E3222EF71E5D5F0A00A8F47A /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EF61E5D5F0A00A8F47A /* ScrollViewController.swift */; };
 		E3222EF91E5D672A00A8F47A /* ScrollView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EF81E5D672A00A8F47A /* ScrollView2Controller.swift */; };
 		E3222EFB1E5D6F1100A8F47A /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222EFA1E5D6F1100A8F47A /* StackViewController.swift */; };
@@ -27,6 +24,8 @@
 		E3222F051E5EB1A200A8F47A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F041E5EB1A200A8F47A /* Extension.swift */; };
 		E3222F071E5EB30600A8F47A /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F061E5EB30600A8F47A /* CustomViewController.swift */; };
 		E3222F091E5EBA8D00A8F47A /* CircleImageVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F081E5EBA8D00A8F47A /* CircleImageVIewController.swift */; };
+		E3AFA5741E5FDDB5000A8E76 /* GCDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */; };
+		E3AFA5761E5FDDBB000A8E76 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5751E5FDDBB000A8E76 /* AlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +47,6 @@
 
 /* Begin PBXFileReference section */
 		E30FECD61E5ECE8100700C89 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = IOS_workshop_Day1/MyPlayground.playground; sourceTree = SOURCE_ROOT; };
-		E30FECD71E5ECF0300700C89 /* GCDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDController.swift; sourceTree = "<group>"; };
-		E30FECD91E5FD12C00700C89 /* BlackgroundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlackgroundController.swift; path = IOS_workshop_Day1/BlackgroundController.swift; sourceTree = "<group>"; };
 		E3222EC11E5C33AC00A8F47A /* IOS_workshop_Day1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_workshop_Day1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3222EC41E5C33AC00A8F47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3222EC61E5C33AC00A8F47A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +60,6 @@
 		E3222EE01E5C33AC00A8F47A /* IOS_workshop_Day1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_workshop_Day1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3222EE41E5C33AC00A8F47A /* IOS_workshop_Day1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_workshop_Day1UITests.swift; sourceTree = "<group>"; };
 		E3222EE61E5C33AC00A8F47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3222EF41E5D313A00A8F47A /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertController.swift; path = ../AlertController.swift; sourceTree = "<group>"; };
 		E3222EF61E5D5F0A00A8F47A /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		E3222EF81E5D672A00A8F47A /* ScrollView2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView2Controller.swift; sourceTree = "<group>"; };
 		E3222EFA1E5D6F1100A8F47A /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +70,8 @@
 		E3222F041E5EB1A200A8F47A /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		E3222F061E5EB30600A8F47A /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		E3222F081E5EBA8D00A8F47A /* CircleImageVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageVIewController.swift; sourceTree = "<group>"; };
+		E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDController.swift; sourceTree = "<group>"; };
+		E3AFA5751E5FDDBB000A8E76 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 		E3222EB81E5C33AC00A8F47A = {
 			isa = PBXGroup;
 			children = (
-				E3222F101E5ECD6600A8F47A /* Multitasking */,
 				E3222EC31E5C33AC00A8F47A /* IOS_workshop_Day1 */,
 				E3222ED81E5C33AC00A8F47A /* IOS_workshop_Day1Tests */,
 				E3222EE31E5C33AC00A8F47A /* IOS_workshop_Day1UITests */,
@@ -125,7 +122,7 @@
 		E3222EC31E5C33AC00A8F47A /* IOS_workshop_Day1 */ = {
 			isa = PBXGroup;
 			children = (
-				E3222EF41E5D313A00A8F47A /* AlertController.swift */,
+				E3AFA5721E5FDD8C000A8E76 /* Multitasking */,
 				E3222EC41E5C33AC00A8F47A /* AppDelegate.swift */,
 				E3222EC61E5C33AC00A8F47A /* ViewController.swift */,
 				E3222EC81E5C33AC00A8F47A /* Main.storyboard */,
@@ -165,11 +162,11 @@
 			path = IOS_workshop_Day1UITests;
 			sourceTree = "<group>";
 		};
-		E3222F101E5ECD6600A8F47A /* Multitasking */ = {
+		E3AFA5721E5FDD8C000A8E76 /* Multitasking */ = {
 			isa = PBXGroup;
 			children = (
-				E30FECD71E5ECF0300700C89 /* GCDController.swift */,
-				E30FECD91E5FD12C00700C89 /* BlackgroundController.swift */,
+				E3AFA5751E5FDDBB000A8E76 /* AlertController.swift */,
+				E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */,
 			);
 			name = Multitasking;
 			sourceTree = "<group>";
@@ -308,16 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AFA5741E5FDDB5000A8E76 /* GCDController.swift in Sources */,
 				E3222F011E5E817E00A8F47A /* ContainerviewController2.swift in Sources */,
 				E3222EC71E5C33AC00A8F47A /* ViewController.swift in Sources */,
 				E3222EF91E5D672A00A8F47A /* ScrollView2Controller.swift in Sources */,
-				E30FECDA1E5FD12C00700C89 /* BlackgroundController.swift in Sources */,
 				E3222F091E5EBA8D00A8F47A /* CircleImageVIewController.swift in Sources */,
 				E3222F071E5EB30600A8F47A /* CustomViewController.swift in Sources */,
 				E3222EFD1E5D7C8F00A8F47A /* ContainerViewController.swift in Sources */,
+				E3AFA5761E5FDDBB000A8E76 /* AlertController.swift in Sources */,
 				E3222F051E5EB1A200A8F47A /* Extension.swift in Sources */,
-				E3222EF51E5D313A00A8F47A /* AlertController.swift in Sources */,
-				E30FECD81E5ECF0300700C89 /* GCDController.swift in Sources */,
 				E3222EFB1E5D6F1100A8F47A /* StackViewController.swift in Sources */,
 				E3222EC51E5C33AC00A8F47A /* AppDelegate.swift in Sources */,
 				E3222EFF1E5D7DF500A8F47A /* HoroscopeResultViewController.swift in Sources */,
