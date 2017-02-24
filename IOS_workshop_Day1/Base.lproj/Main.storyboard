@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="92x-BS-2u9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49a-7I-pUz">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -261,10 +261,10 @@
             </objects>
             <point key="canvasLocation" x="121" y="1673"/>
         </scene>
-        <!--Custom View Controller-->
+        <!--CustomViewController-->
         <scene sceneID="L0d-DL-in9">
             <objects>
-                <viewController storyboardIdentifier="CustomUIView" id="tet-1m-1Cm" customClass="CustomViewController" customModule="IOS_workshop_Day1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CustomUIView" title="CustomViewController" id="tet-1m-1Cm" customClass="CustomViewController" customModule="IOS_workshop_Day1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZrX-Lv-m7c"/>
                         <viewControllerLayoutGuide type="bottom" id="OLo-5L-5T0"/>
@@ -306,10 +306,79 @@
             </objects>
             <point key="canvasLocation" x="49" y="2425"/>
         </scene>
-        <!--Custom View Controller-->
+        <!--GCDController-->
+        <scene sceneID="JJt-Af-8tz">
+            <objects>
+                <viewController storyboardIdentifier="GCDController" title="GCDController" id="49a-7I-pUz" customClass="GCDController" customModule="IOS_workshop_Day1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rw0-9r-gAA"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Mp-iP-cHB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="op2-sy-fRa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="R80-FT-mBq">
+                                <rect key="frame" x="95" y="202" width="184" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9re-Ed-4G1">
+                                <rect key="frame" x="151" y="273" width="73" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startCounting" destination="49a-7I-pUz" eventType="touchUpInside" id="J4d-Yz-9aO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ag0-ok-XIh">
+                                <rect key="frame" x="151" y="317" width="73" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="End"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Fk-XV-TtY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77.599999999999994" y="3191.1544227886061"/>
+        </scene>
+        <!--Background-->
+        <scene sceneID="T1p-a1-CUN">
+            <objects>
+                <viewController title="Background" id="hlQ-hj-jNH" customClass="BlackgroundController" customModule="IOS_workshop_Day1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9dV-Ok-jga"/>
+                        <viewControllerLayoutGuide type="bottom" id="ge4-rK-iQW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Cf-yI-c6x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mvy-ja-juG">
+                                <rect key="frame" x="96" y="210" width="184" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOT-UJ-zDN">
+                                <rect key="frame" x="152" y="280" width="73" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startCounting" destination="49a-7I-pUz" eventType="touchUpInside" id="5St-8J-t9U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3YQ-tp-2b3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="905" y="3209"/>
+        </scene>
+        <!--CustomViewController-->
         <scene sceneID="NaD-z6-vr4">
             <objects>
-                <viewController id="92x-BS-2u9" customClass="CustomViewController" customModule="IOS_workshop_Day1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="CustomViewController" id="92x-BS-2u9" customClass="CustomViewController" customModule="IOS_workshop_Day1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KiK-m0-Uhz"/>
                         <viewControllerLayoutGuide type="bottom" id="egf-gW-xSt"/>
@@ -482,7 +551,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m5b-Qx-wK2" id="dch-xo-yEK">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -510,11 +579,11 @@
                                 <rect key="frame" x="0.0" y="28" width="207" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vhd-Fu-wf5" id="YpS-3m-0Kj">
-                                    <rect key="frame" x="0.0" y="0.0" width="207" height="39"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="207" height="39.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Setting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mwt-C2-otx">
-                                            <rect key="frame" x="15" y="0.0" width="177" height="39"/>
+                                            <rect key="frame" x="15" y="0.0" width="177" height="39.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -530,11 +599,11 @@
                                 <rect key="frame" x="0.0" y="68" width="207" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rGY-LK-Pfw" id="s8t-zU-dWi">
-                                    <rect key="frame" x="0.0" y="0.0" width="207" height="39"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="207" height="39.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Contact List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9RQ-OX-sxx">
-                                            <rect key="frame" x="15" y="0.0" width="177" height="39"/>
+                                            <rect key="frame" x="15" y="0.0" width="177" height="39.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
