@@ -27,11 +27,19 @@
 		E3222F051E5EB1A200A8F47A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F041E5EB1A200A8F47A /* Extension.swift */; };
 		E3222F071E5EB30600A8F47A /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F061E5EB30600A8F47A /* CustomViewController.swift */; };
 		E3222F091E5EBA8D00A8F47A /* CircleImageVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F081E5EBA8D00A8F47A /* CircleImageVIewController.swift */; };
+		E35AD3761E601B24001C79F7 /* ChatWebSocketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35AD3751E601B24001C79F7 /* ChatWebSocketController.swift */; };
 		E3AFA5741E5FDDB5000A8E76 /* GCDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */; };
 		E3AFA5761E5FDDBB000A8E76 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5751E5FDDBB000A8E76 /* AlertController.swift */; };
 		E3AFA5791E5FE4B5000A8E76 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5781E5FE4B5000A8E76 /* SwiftyJSON.swift */; };
 		E3AFA57B1E5FE88F000A8E76 /* avengers.json in Resources */ = {isa = PBXBuildFile; fileRef = E3AFA57A1E5FE88F000A8E76 /* avengers.json */; };
 		E3AFA57D1E5FEE77000A8E76 /* AlamofireController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA57C1E5FEE77000A8E76 /* AlamofireController.swift */; };
+		E3AFA57F1E5FFF5E000A8E76 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA57E1E5FFF5E000A8E76 /* ImageLoader.swift */; };
+		E3AFA5811E600792000A8E76 /* WebSocketTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5801E600792000A8E76 /* WebSocketTest.swift */; };
+		E3AFA5851E600B8A000A8E76 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = E3AFA5831E600B8A000A8E76 /* test.html */; };
+		E3AFA5861E600B8A000A8E76 /* ws-server.rb in Resources */ = {isa = PBXBuildFile; fileRef = E3AFA5841E600B8A000A8E76 /* ws-server.rb */; };
+		E3AFA58A1E600F9E000A8E76 /* chat-server.rb in Resources */ = {isa = PBXBuildFile; fileRef = E3AFA5881E600F9E000A8E76 /* chat-server.rb */; };
+		E3AFA58B1E600F9E000A8E76 /* test_chat.html in Resources */ = {isa = PBXBuildFile; fileRef = E3AFA5891E600F9E000A8E76 /* test_chat.html */; };
+		E3AFA58D1E60100B000A8E76 /* ChatWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA58C1E60100B000A8E76 /* ChatWebsocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,11 +93,19 @@
 		E3222F041E5EB1A200A8F47A /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		E3222F061E5EB30600A8F47A /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		E3222F081E5EBA8D00A8F47A /* CircleImageVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageVIewController.swift; sourceTree = "<group>"; };
+		E35AD3751E601B24001C79F7 /* ChatWebSocketController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatWebSocketController.swift; sourceTree = "<group>"; };
 		E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDController.swift; sourceTree = "<group>"; };
 		E3AFA5751E5FDDBB000A8E76 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		E3AFA5781E5FE4B5000A8E76 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		E3AFA57A1E5FE88F000A8E76 /* avengers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = avengers.json; sourceTree = "<group>"; };
 		E3AFA57C1E5FEE77000A8E76 /* AlamofireController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireController.swift; sourceTree = "<group>"; };
+		E3AFA57E1E5FFF5E000A8E76 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		E3AFA5801E600792000A8E76 /* WebSocketTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketTest.swift; sourceTree = "<group>"; };
+		E3AFA5831E600B8A000A8E76 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		E3AFA5841E600B8A000A8E76 /* ws-server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = "ws-server.rb"; sourceTree = "<group>"; };
+		E3AFA5881E600F9E000A8E76 /* chat-server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = "chat-server.rb"; sourceTree = "<group>"; };
+		E3AFA5891E600F9E000A8E76 /* test_chat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test_chat.html; sourceTree = "<group>"; };
+		E3AFA58C1E60100B000A8E76 /* ChatWebsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatWebsocket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +184,7 @@
 		E3222EC31E5C33AC00A8F47A /* IOS_workshop_Day1 */ = {
 			isa = PBXGroup;
 			children = (
+				E3AFA5821E600B7C000A8E76 /* WebSocket */,
 				E3AFA5771E5FE4A3000A8E76 /* CocoaPods */,
 				E3AFA5721E5FDD8C000A8E76 /* Multitasking */,
 				E3222EC41E5C33AC00A8F47A /* AppDelegate.swift */,
@@ -186,6 +203,7 @@
 				E3222ED01E5C33AC00A8F47A /* Info.plist */,
 				E3222EF61E5D5F0A00A8F47A /* ScrollViewController.swift */,
 				E3222EF81E5D672A00A8F47A /* ScrollView2Controller.swift */,
+				E3AFA57E1E5FFF5E000A8E76 /* ImageLoader.swift */,
 			);
 			path = IOS_workshop_Day1;
 			sourceTree = "<group>";
@@ -226,6 +244,28 @@
 				E3AFA57C1E5FEE77000A8E76 /* AlamofireController.swift */,
 			);
 			name = CocoaPods;
+			sourceTree = "<group>";
+		};
+		E3AFA5821E600B7C000A8E76 /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				E3AFA5871E600F8D000A8E76 /* Chat */,
+				E3AFA5831E600B8A000A8E76 /* test.html */,
+				E3AFA5841E600B8A000A8E76 /* ws-server.rb */,
+				E3AFA5801E600792000A8E76 /* WebSocketTest.swift */,
+			);
+			name = WebSocket;
+			sourceTree = "<group>";
+		};
+		E3AFA5871E600F8D000A8E76 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				E3AFA5881E600F9E000A8E76 /* chat-server.rb */,
+				E3AFA5891E600F9E000A8E76 /* test_chat.html */,
+				E3AFA58C1E60100B000A8E76 /* ChatWebsocket.swift */,
+				E35AD3751E601B24001C79F7 /* ChatWebSocketController.swift */,
+			);
+			name = Chat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,9 +385,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AFA58B1E600F9E000A8E76 /* test_chat.html in Resources */,
+				E3AFA5861E600B8A000A8E76 /* ws-server.rb in Resources */,
 				E3AFA57B1E5FE88F000A8E76 /* avengers.json in Resources */,
 				E3222ECF1E5C33AC00A8F47A /* LaunchScreen.storyboard in Resources */,
 				E3222ECC1E5C33AC00A8F47A /* Assets.xcassets in Resources */,
+				E3AFA58A1E600F9E000A8E76 /* chat-server.rb in Resources */,
+				E3AFA5851E600B8A000A8E76 /* test.html in Resources */,
 				E3222ECA1E5C33AC00A8F47A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,12 +562,16 @@
 				E3222EF91E5D672A00A8F47A /* ScrollView2Controller.swift in Sources */,
 				E3222F091E5EBA8D00A8F47A /* CircleImageVIewController.swift in Sources */,
 				E3222F071E5EB30600A8F47A /* CustomViewController.swift in Sources */,
+				E35AD3761E601B24001C79F7 /* ChatWebSocketController.swift in Sources */,
+				E3AFA5811E600792000A8E76 /* WebSocketTest.swift in Sources */,
 				E3222EFD1E5D7C8F00A8F47A /* ContainerViewController.swift in Sources */,
 				E3AFA57D1E5FEE77000A8E76 /* AlamofireController.swift in Sources */,
 				E3AFA5761E5FDDBB000A8E76 /* AlertController.swift in Sources */,
 				E3222F051E5EB1A200A8F47A /* Extension.swift in Sources */,
+				E3AFA57F1E5FFF5E000A8E76 /* ImageLoader.swift in Sources */,
 				E3222EFB1E5D6F1100A8F47A /* StackViewController.swift in Sources */,
 				E3222EC51E5C33AC00A8F47A /* AppDelegate.swift in Sources */,
+				E3AFA58D1E60100B000A8E76 /* ChatWebsocket.swift in Sources */,
 				E3222EFF1E5D7DF500A8F47A /* HoroscopeResultViewController.swift in Sources */,
 				E3222EF71E5D5F0A00A8F47A /* ScrollViewController.swift in Sources */,
 				E3222F031E5E8EC200A8F47A /* SideMenuTableViewController.swift in Sources */,

@@ -8,6 +8,7 @@ target 'IOS_workshop_Day1' do
   # Pods for IOS_workshop_Day1
     pod 'SwiftyJSON'
     pod 'Alamofire'
+    pod 'Starscream'
 
   target 'IOS_workshop_Day1Tests' do
     inherit! :search_paths

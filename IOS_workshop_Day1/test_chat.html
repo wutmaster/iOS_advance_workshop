@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <script>
+      function init() {
+        function debug(string) {
+          var element = document.getElementById("debug");
+          var p = document.createElement("p");
+          p.appendChild(document.createTextNode(string));
+          element.appendChild(p);
+        }
+
+        var Socket = "MozWebSocket" in window ? MozWebSocket : WebSocket;
+        var ws = new Socket("ws://localhost:8080");
+        ws.onmessage = function(evt) {
+          var j = JSON.parse(evt.data)
+          console.log(j)
+          if (j.cmd == "message") {
+            debug(j.message)
+          }
+          else if (j.cmd == "join")
+          {
+            if( j.success )
+            {
+              document.getElementById("username").innerHTML = j.username
+            }
+          }
+          // debug("Received: " + evt.data);
+        };
+        ws.onclose = function(event) {
+          debug("Closed - code: " + event.code + ", reason: " + event.reason + ", wasClean: " + event.wasClean);
+        };
+        ws.onopen = function() {
+          debug("connected...");
+        };
+
+        window.onbeforeunload = function() {
+          ws.onclose = function () {}; // disable onclose handler first
+          ws.close()
+        };
+
+        var textField = document.getElementById("input")
+        var sendBtn = document.getElementById("send_button")
+        textField.onkeyup = function(){
+          if(event.keyCode == 13){
+            sendBtn.click();
+            textField.value = ""
+          }
+        }
+        sendBtn.onclick = function(){
+          var msg = {
+            "cmd": "chat",
+            "message": textField.value
+          };
+          ws.send(JSON.stringify(msg))
+        };
+      };
+    </script>
+  </head>
+  <body onload="init();">
+    <p id="username">Username</p>
+    <input type="text" name="input" id="input"  />
+    <input type="button" name="btnser" value="Send" id="send_button"/>    
+    <div id="debug" style="overflow-y:auto;"></div>
+  </body>
+</html>
