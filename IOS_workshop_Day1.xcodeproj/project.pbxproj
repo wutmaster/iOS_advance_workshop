@@ -29,6 +29,7 @@
 		E3222F091E5EBA8D00A8F47A /* CircleImageVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3222F081E5EBA8D00A8F47A /* CircleImageVIewController.swift */; };
 		E3AFA5741E5FDDB5000A8E76 /* GCDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */; };
 		E3AFA5761E5FDDBB000A8E76 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5751E5FDDBB000A8E76 /* AlertController.swift */; };
+		E3AFA5791E5FE4B5000A8E76 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AFA5781E5FE4B5000A8E76 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		E3222F081E5EBA8D00A8F47A /* CircleImageVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageVIewController.swift; sourceTree = "<group>"; };
 		E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDController.swift; sourceTree = "<group>"; };
 		E3AFA5751E5FDDBB000A8E76 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		E3AFA5781E5FE4B5000A8E76 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		E3222EC31E5C33AC00A8F47A /* IOS_workshop_Day1 */ = {
 			isa = PBXGroup;
 			children = (
+				E3AFA5771E5FE4A3000A8E76 /* CocoaPods */,
 				E3AFA5721E5FDD8C000A8E76 /* Multitasking */,
 				E3222EC41E5C33AC00A8F47A /* AppDelegate.swift */,
 				E3222EC61E5C33AC00A8F47A /* ViewController.swift */,
@@ -209,6 +212,14 @@
 				E3AFA5731E5FDDB5000A8E76 /* GCDController.swift */,
 			);
 			name = Multitasking;
+			sourceTree = "<group>";
+		};
+		E3AFA5771E5FE4A3000A8E76 /* CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				E3AFA5781E5FE4B5000A8E76 /* SwiftyJSON.swift */,
+			);
+			name = CocoaPods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 				TargetAttributes = {
 					E3222EC01E5C33AC00A8F47A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 68B6HTY833;
 						ProvisioningStyle = Automatic;
 					};
 					E3222ED41E5C33AC00A8F47A = {
@@ -495,6 +507,7 @@
 				E3AFA5741E5FDDB5000A8E76 /* GCDController.swift in Sources */,
 				E3222F011E5E817E00A8F47A /* ContainerviewController2.swift in Sources */,
 				E3222EC71E5C33AC00A8F47A /* ViewController.swift in Sources */,
+				E3AFA5791E5FE4B5000A8E76 /* SwiftyJSON.swift in Sources */,
 				E3222EF91E5D672A00A8F47A /* ScrollView2Controller.swift in Sources */,
 				E3222F091E5EBA8D00A8F47A /* CircleImageVIewController.swift in Sources */,
 				E3222F071E5EB30600A8F47A /* CustomViewController.swift in Sources */,
@@ -658,6 +671,7 @@
 			baseConfigurationReference = 76C617BE14FAFC3D517F4006 /* Pods-IOS_workshop_Day1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68B6HTY833;
 				INFOPLIST_FILE = IOS_workshop_Day1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Piyawut.IOS-workshop-Day1";
@@ -671,6 +685,7 @@
 			baseConfigurationReference = 3F07D89A0283CFEBDC260C34 /* Pods-IOS_workshop_Day1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68B6HTY833;
 				INFOPLIST_FILE = IOS_workshop_Day1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Piyawut.IOS-workshop-Day1";
