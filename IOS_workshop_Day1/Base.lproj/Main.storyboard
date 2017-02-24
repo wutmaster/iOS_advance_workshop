@@ -128,6 +128,9 @@
                                 <rect key="frame" x="96" y="95" width="161" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Standard Action Sheet"/>
+                                <connections>
+                                    <action selector="standardAlert" destination="j9Z-df-7si" eventType="touchUpInside" id="tA0-wn-DFX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hok-Us-2Zw">
                                 <rect key="frame" x="96" y="194" width="138" height="30"/>
