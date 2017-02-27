@@ -33,6 +33,7 @@ class ImageLoader: UIViewController {
         print(fileUrlvar)
         Alamofire.request(self.fileUrl.text!)
             .responseData(completionHandler: {(data) in let img = UIImage(data: data.data!)
+                print("file img=\(img)")
                 self.imageView.image = img
         })
     }
